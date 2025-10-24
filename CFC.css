@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'High';
+    src: url('Higher.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tall';
+    src: url('TALLBOY.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mine';
+    src: url('Minecraftia-Regular.ttf') format('truetype');
+}
+
+.title {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Mine';
+    font-size: 16px;
+    color: rgb(134, 87, 223);
+}
+
+.box, .box2 {
+    background-color: rgb(20, 0, 43);
+    color: rgb(134, 87, 223);
+    padding: 20px;
+    border: dashed rgb(33, 14, 87) 2px;
+    border-radius: 10px;
+    box-shadow: 100px;
+    font-family: 'Mine';
+}
+
+.box {
+    margin-bottom: 25px;
+    width: 900px;
+}
+
+.box2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.mylink {
+    color: rgb(134, 87, 223);
+    font-family: 'Mine';
+    font-size: 15px
+}
